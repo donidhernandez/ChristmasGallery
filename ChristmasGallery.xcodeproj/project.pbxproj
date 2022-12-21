@@ -51,6 +51,8 @@
 		F255DAC42952A010001B7AD4 /* ChristmasGallery */ = {
 			isa = PBXGroup;
 			children = (
+				F255DAD42952A024001B7AD4 /* Model */,
+				F255DAD32952A019001B7AD4 /* View */,
 				F255DAC52952A010001B7AD4 /* ChristmasGalleryApp.swift */,
 				F255DAC72952A010001B7AD4 /* ContentView.swift */,
 				F255DAC92952A011001B7AD4 /* Assets.xcassets */,
@@ -65,6 +67,20 @@
 				F255DACC2952A011001B7AD4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F255DAD32952A019001B7AD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F255DAD42952A024001B7AD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
