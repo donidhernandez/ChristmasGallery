@@ -8,19 +8,19 @@
 import Foundation
 
 struct ImageModel: Identifiable {
-    let id: UUID = UUID()
+    let id: Int
     let imageName: String
 }
 
 extension ImageModel {
     static let imagesData: [ImageModel] = [
-        ImageModel(imageName: "christmas-1"),
-        ImageModel(imageName: "christmas-2"),
-        ImageModel(imageName: "christmas-3"),
-        ImageModel(imageName: "christmas-4"),
+        ImageModel(id: 1, imageName: "christmas-1"),
+        ImageModel(id: 2, imageName: "christmas-2"),
+        ImageModel(id: 3, imageName: "christmas-3"),
+        ImageModel(id: 4, imageName: "christmas-4"),
     ]
     
-    func thumbnailName() -> String {
+    var thumbnailName: String {
         return "thumb-\(imageName)"
     }
 }

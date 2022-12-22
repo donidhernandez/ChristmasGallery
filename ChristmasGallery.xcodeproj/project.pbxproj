@@ -13,7 +13,8 @@
 		F255DACD2952A011001B7AD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F255DACC2952A011001B7AD4 /* Preview Assets.xcassets */; };
 		F255DAD62953A999001B7AD4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255DAD52953A999001B7AD4 /* HomeView.swift */; };
 		F255DAD82953A9B3001B7AD4 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255DAD72953A9B3001B7AD4 /* ImageModel.swift */; };
-		F255DADA2953C2B3001B7AD4 /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255DAD92953C2B3001B7AD4 /* DraggableImageView.swift */; };
+		F255DADF2953F59D001B7AD4 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F255DADE2953F59D001B7AD4 /* ControlImageView.swift */; };
+		F2FCA17B2954B8FA003F7AE8 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FCA17A2954B8FA003F7AE8 /* InfoPanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +25,8 @@
 		F255DACC2952A011001B7AD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F255DAD52953A999001B7AD4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F255DAD72953A9B3001B7AD4 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
-		F255DAD92953C2B3001B7AD4 /* DraggableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		F255DADE2953F59D001B7AD4 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		F2FCA17A2954B8FA003F7AE8 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 		F255DAD32952A019001B7AD4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F255DADE2953F59D001B7AD4 /* ControlImageView.swift */,
 				F255DAD52953A999001B7AD4 /* HomeView.swift */,
-				F255DAD92953C2B3001B7AD4 /* DraggableImageView.swift */,
+				F2FCA17A2954B8FA003F7AE8 /* InfoPanelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,10 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F255DAC82952A010001B7AD4 /* ContentView.swift in Sources */,
-				F255DADA2953C2B3001B7AD4 /* DraggableImageView.swift in Sources */,
 				F255DAD62953A999001B7AD4 /* HomeView.swift in Sources */,
+				F2FCA17B2954B8FA003F7AE8 /* InfoPanelView.swift in Sources */,
 				F255DAC62952A010001B7AD4 /* ChristmasGalleryApp.swift in Sources */,
 				F255DAD82953A9B3001B7AD4 /* ImageModel.swift in Sources */,
+				F255DADF2953F59D001B7AD4 /* ControlImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
